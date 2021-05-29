@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloWorld from './HelloWorld';
+import OhMyGod from './OhMyGod';
 
+// 여기서 전체 랜더링? 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <HelloWorld />
+      <OhMyGod/>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
